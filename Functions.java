@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Functions {
     public static void main(String[] args) {
         int bruh = sum();
-        System.out.println("bruh is ra" + bruh);
+        System.out.println("sum is " + bruh);
     }    
 
     static int sum(){
