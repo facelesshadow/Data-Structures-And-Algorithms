@@ -31,6 +31,7 @@ public class Basics{
 
         // int num1 = input.nextInt();
         // int num2 = input.nextInt();
+        // char c = input.next().charAt(0);
 
         // int sum = num1 + num2; 
         // System.out.println("Sum is " + sum);
