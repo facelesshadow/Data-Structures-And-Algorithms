@@ -23,6 +23,8 @@ public class Arrays {
 
          //Printing array like an arrat by converting it into a string by Array class
          //System.out.println(Arrays.toString(num2));
+         
 
-    }
+         
+    }   
 }
