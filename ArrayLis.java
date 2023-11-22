@@ -12,6 +12,11 @@ public class ArrayLis {
         name.add(3229);
         name.add(29);
 
+        name.set(0, 99);
+
+
         System.out.println(name);
+        System.out.println(name.contains(99));
+
     }    
 }
