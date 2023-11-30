@@ -10,21 +10,21 @@ public class RevArray {
             arr[i] = in.nextInt();
         }
 
-
+        int start = 0;
+        int end = arr.length - 1;
         int temp = 0;
-        for (int i = 0; i < arr.length/2; i++) {
-            temp = arr[i];
-            arr[i] = arr[arr.length - i - 1];
-            arr[arr.length - i] = temp;
+        while(start<end){
+            temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+
+            end--;
+            start++;
         }
+        
+        
 
         System.out.println(Arrays.toString(arr));
 
     }   
-
-    static void swap(int a, int b){
-        int temp = a;
-        a = b;
-        b = temp;
-    }
 }
