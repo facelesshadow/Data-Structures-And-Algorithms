@@ -22,7 +22,7 @@ int main()
     else
     {
         cout<<a+1;
-    }*/
+    }
 
     int a = 24;
 
@@ -39,4 +39,13 @@ int main()
         cout<<"Babbar";
     }
     cout<<a;
+    */
+    
+    char ch;
+    cout << "Enter a character: ";
+    cin>>ch;
+    if (ch >= 'a' & ch <= 'z')
+    {
+        cout << "Lowercase" << endl;
+    }
 }
