@@ -3,8 +3,24 @@ using namespace std;
 
 int main()
 {
-    while(true)
+    //Prime or not
+    int n;
+    bool flag = true;
+    cin >> n;
+    for(int i = 2; i < n; i++)
     {
-        cout << "hello";
+        if (n%i == 0)
+        {
+            flag = false;
+        }
     }
+    if (flag)
+    {
+        cout<< "Number is prime" << endl;
+    }
+    else
+    {
+        cout << "Number is not prime" << endl;
+    }
+    
 }
